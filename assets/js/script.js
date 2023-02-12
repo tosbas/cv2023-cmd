@@ -6,7 +6,7 @@ const shellCmd1 = document.getElementById("shell-cmd1");
 const shellhost = [...document.getElementsByClassName("shell-host")];
 
 const welcomeText =
-  "Bienvenue sur mon CV interactif réaliser en pur javascript, si vous êtes familier avec le systéme linux vous n'aurez aucun probléme pour naviguer, sinon pour afficher la liste des commandes taper help";
+  "Bienvenue sur mon CV interactif réalisé en pur Javascript, si vous êtes familier avec le système Linux vous n'aurez aucun problème pour naviguer, sinon pour afficher la liste des commandes taper help";
 const arrayText = welcomeText.split(" ");
 const arrayString = welcomeText.split("");
 const NAME_SHELL = "tosbas shell 1.0.0";
@@ -65,7 +65,6 @@ const newShell = (newId) => {
 
   const newInput = document.createElement("input");
   newShellCmd.appendChild(newInput);
-
 
   newInput.setAttribute("id", "prompt" + newId);
   newInput.setAttribute("type", "text");
