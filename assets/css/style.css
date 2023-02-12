@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-family: Georgia, serif;
+}
+
+
+
+.term, #welcome, #commande,#shell,#shell-name, #error{
+    color: greenyellow;
+}
+
+.prompt{
+    background-color: black;
+    border: none;
+    color: greenyellow;
+    outline: none;
+}
+
+.shell-cmd{
+    display: flex;
+    color: greenyellow;
+}
+
+.prompt-disabled{
+    
+    display: none;
+}
+
