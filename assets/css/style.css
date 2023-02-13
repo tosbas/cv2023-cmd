@@ -1,28 +1,21 @@
-body{
-    background-color: black;
-    font-family: Georgia, serif;
+body {
+  background-color: black;
+  font-family: Georgia, serif;
+  color: greenyellow;
 }
 
-
-
-.term, #welcome, #commande,#shell,#shell-name, #error{
-    color: greenyellow;
+.prompt {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: greenyellow;
 }
 
-.prompt{
-    background-color: black;
-    border: none;
-    color: greenyellow;
-    outline: none;
+.shell-cmd {
+  display: flex;
+  color: greenyellow;
 }
 
-.shell-cmd{
-    display: flex;
-    color: greenyellow;
+.prompt-disabled {
+  display: none;
 }
-
-.prompt-disabled{
-    
-    display: none;
-}
-
