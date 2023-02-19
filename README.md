@@ -1,5 +1,5 @@
 # cv2023-cmd
-Teste de Cv en mode terminal
+Test de Cv en mode terminal
 
 Liste des commandes disponibles : <br/>
 ls [-a]<br/>
